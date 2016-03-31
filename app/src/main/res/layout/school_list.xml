@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100"
+    android:layout_marginTop="3dp"
+    android:background="?android:attr/activatedBackgroundIndicator">
+
+    <TextView
+        android:id="@+id/schoolListName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OS Branko Radicevic"
+        android:textSize="20sp"
+        android:layout_weight="70"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/schoolListCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Novi Sad"
+        android:textSize="14sp"
+        android:layout_weight="30"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center"/>
+
+</LinearLayout>
